@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Reentrancy Basic/main.sol": "Main"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Reentrancy Basic/main.sol": {
+			"keccak256": "0x63158814436d5ad5dd5199d0a1d91e994a901b2ac4b845e52f392362d7e54d51",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c8253ab6cd3f2f61198708a47bf0069f9f4165b4faf8bf50ac8e656d975b727",
+				"dweb:/ipfs/QmW3w2xrKphQP5SGFTorELbQ1fXctjReaiUkLWukL7LwL5"
+			]
+		}
+	},
+	"version": 1
+}
