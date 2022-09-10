@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "testGasRefund",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Gas/Gas.sol": "Gas"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Gas/Gas.sol": {
+			"keccak256": "0xf73cda914164e7e7bafd490875b42d38ec3e67951e57650f1d89c6254864d8c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9184e6b2ccd3ed34d76bbd61d88cb9f20fb95f0fa3e9e1553aa608264bd1f0f",
+				"dweb:/ipfs/QmPniFsWQpSRo6QvBQiKVLeG3xGUJwKvt778oYhw7feNR9"
+			]
+		}
+	},
+	"version": 1
+}
