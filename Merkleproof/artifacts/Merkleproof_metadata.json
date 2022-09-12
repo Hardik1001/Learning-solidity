@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32[]",
+						"name": "proof",
+						"type": "bytes32[]"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "root",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "leaf",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Merkleproof/Merkleproof.sol": "Merkleproof"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Merkleproof/Merkleproof.sol": {
+			"keccak256": "0xa49fcbb16c34acc0ffc1bb8c6b284a26af255ce7ae04165d4039ee320222356d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://408e04e481b267368e168cfe59fe5e799214732fb37dc302b5e0f9a7f4af8397",
+				"dweb:/ipfs/QmdmdgbUAsSVxTjkBpdn5UfuZ5b4S5cdPjTNortfRa6x3o"
+			]
+		}
+	},
+	"version": 1
+}
