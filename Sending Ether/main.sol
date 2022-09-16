@@ -2,24 +2,30 @@
 pragma solidity ^0.8.0;
 
 contract ReceiveEther{
-    fallback() external payable {} //called when a function which does not exists is called or
+    event Log(uint gas);
+    fallback() external payable {
+        emit Log(gasleft());
+    } 
+    //called when a function which does not exists is called or
     //when ether is sent to this contract using transfer, send or call
+
     receive() external payable {}
 
     function getBalance() public view returns(uint){
         return address(this).balance;
     }
-
 }
 
 contract SendEther{
     function sendViaTransfer(address payable _to) public payable{
         _to.transfer(msg.value); //throws error if fails to send tx
+        //frwds 2300 gas to fallback func
     }
 
     function sendViaSend(address payable _to) public payable{
         bool sent = _to.send(msg.value);//returns boolean
         require(sent,"Failed to send ether");
+        //frwds 2300 gas to fallback func
     }
 
     function sendViaCall(address payable _to) public payable{
