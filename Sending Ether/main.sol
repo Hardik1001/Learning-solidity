@@ -2,7 +2,8 @@
 pragma solidity ^0.8.0;
 
 contract ReceiveEther{
-    fallback() external payable {}
+    fallback() external payable {} //called when a function which does not exists is called or
+    //when ether is sent to this contract using transfer, send or call
     receive() external payable {}
 
     function getBalance() public view returns(uint){
